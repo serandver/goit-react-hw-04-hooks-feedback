@@ -49,7 +49,7 @@ export default function App() {
             neutral={neutral}
             bad={bad}
             total={countTotalFeedback()}
-            positivePercentage={countPositiveFeedbackPercentage}
+            positivePercentage={countPositiveFeedbackPercentage()}
           />
         </Section>
       ) : (
