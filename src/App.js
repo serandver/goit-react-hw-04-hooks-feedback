@@ -15,8 +15,9 @@ export default function App() {
     return good + neutral + bad;
   };
 
+  const total = countTotalFeedback();
+
   const countPositiveFeedbackPercentage = () => {
-    const total = countTotalFeedback();
     return total ? Math.round((good / total) * 100) : 0;
   };
 
@@ -42,13 +43,13 @@ export default function App() {
           onLeaveFeedback={onLeaveFeedback}
         />
       </Section>
-      {countTotalFeedback() > 0 ? (
+      {total > 0 ? (
         <Section title="Statistic">
           <Statistics
             good={good}
             neutral={neutral}
             bad={bad}
-            total={countTotalFeedback()}
+            total={total}
             positivePercentage={countPositiveFeedbackPercentage()}
           />
         </Section>
