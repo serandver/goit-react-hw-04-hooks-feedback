@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-04-feedback",
+  "name": "goit-react-hw-04-hooks-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://serandver.github.io/goit-react-hw-04-feedback",
+  "homepage": "https://serandver.github.io/goit-react-hw-04-hooks-feedback",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serandver/goit-react-hw-04-feedback"
+    "url": "git+https://github.com/serandver/goit-react-hw-04-hooks-feedback"
   },
   "keywords": [],
   "author": "serandver <sakhom16@gmail.com>",
